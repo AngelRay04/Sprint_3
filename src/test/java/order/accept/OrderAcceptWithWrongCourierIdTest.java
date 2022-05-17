@@ -6,8 +6,10 @@ import io.restassured.response.ValidatableResponse;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.*;
 import io.qameta.allure.junit4.DisplayName;
+
 import ru.services.praktikum.qascooter.client.*;
 import ru.services.praktikum.qascooter.model.*;
+
 import static org.apache.http.HttpStatus.SC_NOT_FOUND;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
