@@ -1,0 +1,17 @@
+courier\create\CreateSameCourierTest.class
+order\getList\OrdersListGetTest.class
+order\accept\OrderAcceptWithWrongCourierIdTest.class
+courier\delete\DeleteCourierTest.class
+courier\login\LoginTest.class
+order\accept\OrderAcceptAgainTest.class
+order\getList\OrderGetTest.class
+courier\create\CreateNewCourierWithAllFieldsTest.class
+order\accept\OrderAcceptWithWrongOrderIdTest.class
+courier\delete\DeleteCourierWithoutIdTest.class
+courier\delete\DeleteCourierWithWrongIdTest.class
+courier\login\LoginWithWrongFieldsTest.class
+order\accept\OrderAcceptWithoutOrderTrackTest.class
+order\create\OrdersCreateTest.class
+courier\login\LoginWithoutMandatoryFieldsTest.class
+courier\create\CreateNewCourierWithoutMandatoryFieldsTest.class
+order\accept\OrderAcceptTest.class

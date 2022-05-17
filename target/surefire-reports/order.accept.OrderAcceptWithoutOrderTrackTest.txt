@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: order.accept.OrderAcceptWithoutOrderTrackTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.37 s <<< FAILURE! - in order.accept.OrderAcceptWithoutOrderTrackTest
+checkOrderCanNotBeAcceptedWithoutOrderTrack(order.accept.OrderAcceptWithoutOrderTrackTest)  Time elapsed: 0.37 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+	at order.accept.OrderAcceptWithoutOrderTrackTest.checkOrderCanNotBeAcceptedWithoutOrderTrack(OrderAcceptWithoutOrderTrackTest.java:42)
+
