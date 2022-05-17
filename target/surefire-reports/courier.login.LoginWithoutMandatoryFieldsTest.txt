@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: courier.login.LoginWithoutMandatoryFieldsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.346 s <<< FAILURE! - in courier.login.LoginWithoutMandatoryFieldsTest
+checkNewCourierCanNotLoginWithoutMandatoryFields[0: в теле запроса отсутствует поле: CourierCredentials(login=sTuxlZtuOW, password=null)](courier.login.LoginWithoutMandatoryFieldsTest)  Time elapsed: 60.152 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <504>.
+
+	at courier.login.LoginWithoutMandatoryFieldsTest.checkNewCourierCanNotLoginWithoutMandatoryFields(LoginWithoutMandatoryFieldsTest.java:50)
+
