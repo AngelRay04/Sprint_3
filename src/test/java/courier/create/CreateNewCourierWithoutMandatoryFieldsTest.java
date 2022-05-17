@@ -25,7 +25,7 @@ public class CreateNewCourierWithoutMandatoryFieldsTest {
         courierClient = new CourierClient();
     }
 
-    @Parameterized.Parameters(name = "{index}: в теле запроса отмутствует поле: {0}")
+    @Parameterized.Parameters(name = "{index}: в теле запроса отсутствует поле: {0}")
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][]{
                         {Courier.setRandomLogin()},

@@ -30,9 +30,11 @@ public class Courier {
         return this;
     }
     public void setFirstName(String firstName) {
+
         this.firstName = firstName;
     }
-     public static Courier setRandomLogin() {
+    public static Courier setRandomLogin() {
+
         return new Courier().setLogin(RandomStringUtils.randomAlphabetic(10));
     }
     public static Courier setRandomPassword() {

@@ -58,6 +58,7 @@ public class CourierClient extends RestAssuredClient {
 
     @Step("Получить id курьера")
     public int getCourierId(Courier courier){
+
         return login(CourierCredentials.from(courier)).extract().path("id");
     }
 
